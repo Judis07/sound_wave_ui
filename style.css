@@ -10,4 +10,123 @@ body {
 
 body {
   font-family: 'Poppins', sans-serif;
+  background-color: #2f3038;
+  height: 100vh;
+  position: relative;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  width: 90%;
+  max-width: 1220px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 2em 0; */
+  height: 20vh;
+}
+
+.nav {
+  display: flex;
+  color: #c7c2c2;
+}
+
+.nav_link {
+  margin-left: 3em;
+  font-size: 1.1em;
+  cursor: pointer;
+}
+
+.nav_link:hover {
+  border-bottom: 1px solid white;
+}
+
+main {
+  height: 80vh;
+}
+
+/* circle decorators */
+
+.circle {
+  position: absolute;
+}
+
+.one {
+  top: 25%;
+  left: 42%;
+}
+
+.two {
+  bottom: 0;
+  right: 0;
+  display: block;
+}
+
+.three {
+  bottom: 10%;
+  left: 14%;
+}
+
+/* main  */
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  height: 100%;
+}
+
+.hero_div {
+  align-self: flex-end;
+  z-index: 2;
+}
+
+.hero_div img {
+  display: block;
+}
+
+.hero_content {
+  margin-top: 8em;
+}
+
+.title {
+  color: #fff;
+  font-size: 3em;
+  margin-bottom: 0.2em;
+  font-weight: bold;
+}
+
+.title span {
+  color: #bc3a80;
+}
+
+.subtitle {
+  color: #fff;
+  font-size: 1.5em;
+  margin-bottom: 1.2em;
+}
+
+.cta button {
+  color: #e3e1e1;
+  background-color: #1762a7;
+  border: none;
+  outline: none;
+  width: 10em;
+  height: 4em;
+  border-radius: 30px;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  cursor: pointer;
 }
